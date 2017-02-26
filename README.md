@@ -12,6 +12,7 @@ run_analysis.R is a script that reads in a series of files representing smartpho
 
 It assumes that all of the required input files have already been loaded into the current working directory.  
 It generates a single output file, GroupedMeans.txt, containing 180 rows of 68 columns, plus a header row.  
+The variables from the input data that were included in the output (other than subject and activity) all contained the string "-mean()" or "-std()".
 The script relies on the dplyr library package. It was written and tested on Windows 10.  
 
 Refer to the script itself for more details about the steps taken to produce the tidy data output.
